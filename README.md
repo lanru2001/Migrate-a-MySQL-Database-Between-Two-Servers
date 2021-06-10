@@ -18,3 +18,5 @@ Step Three—Import the Database
 Once the data has been transferred to the new server, you can import the database into MySQL:
 
 mysql -u root -p newdatabase < /path/to/newdatabase.sql
+
+Directory to use to copy database: username@ipaddress: /opt
